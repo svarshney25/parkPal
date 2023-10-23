@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536893052AE33B660097D078 /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536893042AE33B660097D078 /* GarageViewController.swift */; };
+		536893092AE5907D0097D078 /* BookParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536893082AE5907D0097D078 /* BookParkingViewController.swift */; };
 		53EDCF522AD08EBA0053C9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCF512AD08EBA0053C9EE /* AppDelegate.swift */; };
 		53EDCF542AD08EBA0053C9EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCF532AD08EBA0053C9EE /* SceneDelegate.swift */; };
 		53EDCF562AD08EBA0053C9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCF552AD08EBA0053C9EE /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		536893042AE33B660097D078 /* GarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
+		536893082AE5907D0097D078 /* BookParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookParkingViewController.swift; sourceTree = "<group>"; };
 		53EDCF4E2AD08EBA0053C9EE /* parkPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EDCF512AD08EBA0053C9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53EDCF532AD08EBA0053C9EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				53EDCF512AD08EBA0053C9EE /* AppDelegate.swift */,
+				536893042AE33B660097D078 /* GarageViewController.swift */,
 				53EDCF532AD08EBA0053C9EE /* SceneDelegate.swift */,
 				53EDCF552AD08EBA0053C9EE /* ViewController.swift */,
 				53EDCF572AD08EBA0053C9EE /* Main.storyboard */,
+				536893082AE5907D0097D078 /* BookParkingViewController.swift */,
 				53EDCF5D2AD08EBD0053C9EE /* Assets.xcassets */,
 				53EDCF5F2AD08EBD0053C9EE /* LaunchScreen.storyboard */,
 				53EDCF622AD08EBD0053C9EE /* Info.plist */,
@@ -264,6 +270,8 @@
 				53EDCF562AD08EBA0053C9EE /* ViewController.swift in Sources */,
 				53EDCF522AD08EBA0053C9EE /* AppDelegate.swift in Sources */,
 				53EDCF542AD08EBA0053C9EE /* SceneDelegate.swift in Sources */,
+				536893052AE33B660097D078 /* GarageViewController.swift in Sources */,
+				536893092AE5907D0097D078 /* BookParkingViewController.swift in Sources */,
 				53EDCF5C2AD08EBA0053C9EE /* parkPal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
