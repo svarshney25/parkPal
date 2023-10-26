@@ -15,7 +15,7 @@ class BookParkingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        createDatePicker()
+//        createDatePicker()
 //        let datePicker = UIDatePicker()
 //        datePicker.datePickerMode = .date
 //        datePicker.addTarget(self, action: #selector(dateChange(datePicker:)), for: UIControl.Event.valueChanged)
@@ -26,32 +26,32 @@ class BookParkingViewController: UIViewController {
 //        dateTF.text = formatDate(date: Date()) //todays date
         
     }
-    func createToolbar() -> UIToolbar {
-        let toolbar = UIToolbar()
-        toolbar.sizeToFit()
-        
-        let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
-        toolbar.setItems([doneBtn], animated: true)
-        
-        return toolbar
-    }
-    
-    func createDatePicker() {
-        datePicker.preferredDatePickerStyle = .wheels
-        datePicker.datePickerMode = .date
-        
-        dateTF.inputView = datePicker
-        dateTF.inputAccessoryView = createToolbar()
-    }
-    
-    @objc func donePressed() {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .medium
-        dateFormatter.timeStyle = .none
-        
-        self.dateTF.text = dateFormatter.string(from: datePicker.date)
-        self.view.endEditing(true)
-    }
+//    func createToolbar() -> UIToolbar {
+//        let toolbar = UIToolbar()
+//        toolbar.sizeToFit()
+//
+//        let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
+//        toolbar.setItems([doneBtn], animated: true)
+//
+//        return toolbar
+//    }
+//
+//    func createDatePicker() {
+//        datePicker.preferredDatePickerStyle = .wheels
+//        datePicker.datePickerMode = .date
+//
+//        dateTF.inputView = datePicker
+//        dateTF.inputAccessoryView = createToolbar()
+//    }
+//
+//    @objc func donePressed() {
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateStyle = .medium
+//        dateFormatter.timeStyle = .none
+//
+//        self.dateTF.text = dateFormatter.string(from: datePicker.date)
+//        self.view.endEditing(true)
+//    }
 //    @objc func dateChange(datePicker: UIDatePicker) {
 //        dateTF.text = formatDate(date: datePicker.date)
 //    }

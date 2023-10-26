@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531969352AE7267A0001A047 /* StreetParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531969342AE7267A0001A047 /* StreetParkingViewController.swift */; };
 		536893052AE33B660097D078 /* GarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536893042AE33B660097D078 /* GarageViewController.swift */; };
 		536893092AE5907D0097D078 /* BookParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536893082AE5907D0097D078 /* BookParkingViewController.swift */; };
 		53EDCF522AD08EBA0053C9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDCF512AD08EBA0053C9EE /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531969342AE7267A0001A047 /* StreetParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetParkingViewController.swift; sourceTree = "<group>"; };
 		536893042AE33B660097D078 /* GarageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageViewController.swift; sourceTree = "<group>"; };
 		536893082AE5907D0097D078 /* BookParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookParkingViewController.swift; sourceTree = "<group>"; };
 		53EDCF4E2AD08EBA0053C9EE /* parkPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				53EDCF532AD08EBA0053C9EE /* SceneDelegate.swift */,
 				53EDCF552AD08EBA0053C9EE /* ViewController.swift */,
 				53EDCF572AD08EBA0053C9EE /* Main.storyboard */,
+				531969342AE7267A0001A047 /* StreetParkingViewController.swift */,
 				536893082AE5907D0097D078 /* BookParkingViewController.swift */,
 				53EDCF5D2AD08EBD0053C9EE /* Assets.xcassets */,
 				53EDCF5F2AD08EBD0053C9EE /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			files = (
 				53EDCF562AD08EBA0053C9EE /* ViewController.swift in Sources */,
 				53EDCF522AD08EBA0053C9EE /* AppDelegate.swift in Sources */,
+				531969352AE7267A0001A047 /* StreetParkingViewController.swift in Sources */,
 				53EDCF542AD08EBA0053C9EE /* SceneDelegate.swift in Sources */,
 				536893052AE33B660097D078 /* GarageViewController.swift in Sources */,
 				536893092AE5907D0097D078 /* BookParkingViewController.swift in Sources */,
